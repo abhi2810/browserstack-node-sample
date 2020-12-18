@@ -12,7 +12,7 @@ let capabilities = {
 	browserName: 'Firefox',
 	name: 'Firefox Test',
 	os: 'Windows',
-	build: 'Test Build 01',
+	build: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
 	project: 'My Awesome App',
 	'browserstack.debug': true,
 };
