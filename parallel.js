@@ -14,8 +14,8 @@ let capabilities = [
         browserName: 'Firefox',
         name: 'Firefox Test',
         os: 'Windows',
-        build: 'Test Build 01',
-        project: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        build: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        project: 'My Awesome App',
         'browserstack.debug': true,
         'browserstack.console': 'errors',
         'browserstack.networkLogs': true
@@ -24,8 +24,8 @@ let capabilities = [
         browserName: 'Chrome',
         name: 'Chrome Test',
         os: 'Windows',
-        build: 'Test Build 01',
-        project: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        build: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        project: 'My Awesome App',
         'browserstack.debug': true,
         'browserstack.console': 'errors',
         'browserstack.networkLogs': true
@@ -36,8 +36,8 @@ let capabilities = [
         os_version : "9.0",
         device : "Samsung Galaxy S10",
         real_mobile : "true",
-        build: 'Test Build 01',
-        project: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        build: process.env.BROWSERSTACK_BUILD_NAME || 'Test Build 01',
+        project: 'My Awesome App',
         'browserstack.debug': true,
         'browserstack.console': 'errors',
         'browserstack.networkLogs': true
